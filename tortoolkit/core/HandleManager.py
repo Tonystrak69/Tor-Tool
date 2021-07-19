@@ -595,7 +595,7 @@ async def set_password_zip(message):
             await message.reply(f"Cannot update the password this is not your download.")
 
 async def start_handler(event):
-    msg = "Hello I am the leech bot of @EK_LEECH. /nFor more Updates 🔰Join🔰 /nChannel: @EKBOTZ_UPDATE /nGroup: @ekbotz_support."
+    msg = "Hello I am the Leech Bot of @EK_LEECH. \n For more Updates 🔰Join🔰 \n Channel: @EKBOTZ_UPDATE \n Group: @ekbotz_support."
     await event.reply(msg, parse_mode="html")
 
 def progress_bar(percentage):
