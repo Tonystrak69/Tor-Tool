@@ -595,7 +595,7 @@ async def set_password_zip(message):
             await message.reply(f"Cannot update the password this is not your download.")
 
 async def start_handler(event):
-    msg = "Who The Hell Are You😈 "
+    msg = "Who The Hell Are You😈"
     await event.reply(msg, parse_mode="html")
 
 def progress_bar(percentage):
