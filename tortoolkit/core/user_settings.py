@@ -25,7 +25,7 @@ no = "❌"
 yes = "✅"
 # Central object is not used its Acknowledged 
 tordb = TorToolkitDB()
-header =  '<b>Leech Bot by <a href="https://t.me/tony_leech_zone">TONY LEECH+MIRROR</a></b>\n<u>USER SETTINGS MENU - v1</u>'
+header =  '<b>Leech Bot by <a href="https://t.me/tony_leech_zone">TONY LEECH ZONE</a></b>\n<u>USER SETTINGS MENU - v1</u>'
 async def handle_user_setting_callback(e):
     db = tordb
     sender_id = str(e.sender_id)
